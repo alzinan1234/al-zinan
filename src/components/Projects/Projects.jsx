@@ -1,6 +1,6 @@
 import React from "react";
 import logoMaker from "../../app/assets/projects/Screenshot_9.png";
-import remote from "../../app/assets/reviews/remote.png";
+import remote from "../../app/assets/projects/resturent.png";
 import vpn from "../../app/assets/reviews/Screenshot_5.png";
 import photoGenerate from "../../app/assets/reviews/image.png";
 import Image from "next/image";
@@ -14,13 +14,16 @@ const Projects = () => {
         "An interactive education website designed to provide engaging learning resources, courses, and tools for students of all ages and subjects.",
       image: logoMaker,
       link: "https://education-02.vercel.app/",
+      GithubLink: "https://github.com/alzinan1234/educal-02",
     },
     {
       id: 2,
-      name: "Universal TV Remote and Cast",
-      description: "Control your TV and cast media directly from your device.",
+      name: "Restaurant Boos",
+      description:
+        "A vibrant restaurant website showcasing delicious menus, reservation options, and a seamless user experience for food enthusiasts.",
       image: remote,
-      link: "https://apps.apple.com/ca/app/tv-remote-universal-control/id6443671916",
+      link: "https://restaurant-boos.netlify.app/",
+      GithubLink: "https://education-02.vercel.app/",
     },
     {
       id: 3,
@@ -29,6 +32,7 @@ const Projects = () => {
         "Secure your online privacy with fast, stable, and reliable VPN service.",
       image: vpn,
       link: "https://apps.apple.com/gb/app/nolog-vpn-fast-stable-proxy/id1516805757",
+      GithubLink: "https://education-02.vercel.app/",
     },
     {
       id: 4,
@@ -36,6 +40,7 @@ const Projects = () => {
       description: "Generate creative and artistic GIFs using AI technology.",
       image: photoGenerate,
       link: "https://apps.apple.com/us/app/ai-gif-maker-photo-generator/id6502057569",
+      GithubLink: "https://education-02.vercel.app/",
     },
   ];
 
@@ -81,7 +86,7 @@ const Projects = () => {
                   Live Link
                 </a>
                 <a
-                  href={project.link}
+                  href={project.GithubLink}
                   target="_blank"
                   rel="noopener noreferrer"
                   className="text-white hover:text-indigo-800 font-medium bg-orange-600 p-2 px-5 rounded"
