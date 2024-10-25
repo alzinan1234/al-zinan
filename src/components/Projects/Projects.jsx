@@ -23,7 +23,7 @@ const Projects = () => {
         "A vibrant restaurant website showcasing delicious menus, reservation options, and a seamless user experience for food enthusiasts.",
       image: remote,
       link: "https://restaurant-boos.netlify.app/",
-      GithubLink: "https://education-02.vercel.app/",
+      GithubLink: "https://github.com/alzinan1234/restaurant-boos",
     },
     {
       id: 3,
@@ -31,8 +31,8 @@ const Projects = () => {
       description:
         "Secure your online privacy with fast, stable, and reliable VPN service.",
       image: vpn,
-      link: "https://apps.apple.com/gb/app/nolog-vpn-fast-stable-proxy/id1516805757",
-      GithubLink: "https://education-02.vercel.app/",
+      link: "https://your-nike-world.netlify.app/",
+      GithubLink: "https://github.com/alzinan1234/nike-world",
     },
     {
       id: 4,
