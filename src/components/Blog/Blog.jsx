@@ -55,7 +55,7 @@ const Blog = () => {
             {blogData.map((blog, index) => (
               <div
                 key={index}
-                className="bg-white shadow-md rounded-lg overflow-hidden "
+                className="bg-white shadow-2xl rounded-lg overflow-hidden shadow-[#3fff5c] "
               >
                 <a href={blog.link}>
                   <Image

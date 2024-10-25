@@ -82,7 +82,7 @@ const Projects = () => {
                   href={project.link}
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="text-white hover:text-indigo-800 font-medium bg-orange-600 p-2 px-5 rounded"
+                  className="text-white hover:text-indigo-800 font-medium bg-red-600 p-2 px-5 rounded"
                 >
                   Live Link
                 </a>
@@ -90,7 +90,7 @@ const Projects = () => {
                   href={project.GithubLink}
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="text-white hover:text-indigo-800 font-medium bg-orange-600 p-2 px-5 rounded"
+                  className="text-black  hover:text-indigo-800 font-medium bg-[#3fff5c] p-2 px-5 rounded"
                 >
                   Github Link
                 </a>
