@@ -22,7 +22,7 @@ const Footer = () => {
             <span>
               <IoLocationSharp className="w-5 h-6" />
             </span>
-            40, Middle Badda, Dhaka-1212
+            40, Mohakhli, Dhaka-1212
           </p>
         </div>
 
@@ -31,14 +31,14 @@ const Footer = () => {
           <div className="flex items-center border-2 border-white p-8 rounded-md space-x-2">
             <MdPhone className="text-3xl font-bold  bg-[#2CBB02] rounded p-1" />
             <span className="text-black font-bold text-sm">
-              +880 1685-822476
+              +880 1788499970
             </span>
           </div>
           <div className="flex items-center border-2 border-white p-8 rounded-md space-x-2 ">
             <MdEmail className="text-3xl font-bold bg-blue-500 rounded-full p-1" />
             <span className="text-black font-bold text-sm">
               {" "}
-              shakil.shanto76@gmail.com
+              alzinan314@gmail.com
             </span>
           </div>
         </div>
@@ -46,19 +46,19 @@ const Footer = () => {
         {/* Right Section: Social Icons */}
         <div className="flex space-x-6">
           <a
-            href="#"
+            href="https://www.facebook.com/alzinan.73"
             className="text-white text-2xl bg-blue-500 rounded p-2 hover:text-gray-300"
           >
             <FaFacebookF />
           </a>
           <a
-            href="#"
+            href="https://www.instagram.com/alzinan4/"
             className="text-white bg-[#F24D56] p-2 rounded text-2xl hover:text-gray-300"
           >
             <FaInstagram />
           </a>
           <a
-            href="https://www.linkedin.com/in/md-shakil-alam-seu?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
+            href="https://www.linkedin.com/in/al-zinan-bb7464248/"
             className="text-white text-2xl bg-[#0270AD] p-2 rounded hover:text-gray-300"
           >
             <FaLinkedinIn />
