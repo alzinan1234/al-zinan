@@ -1,6 +1,6 @@
 import React from "react";
 import "./About.css";
-import image from "../../app/assets/home/shanto-vsi2.png";
+import image from "../../app/assets/home/1.png";
 import Image from "next/image";
 import {
   FaEnvelope,
@@ -33,35 +33,30 @@ const About = () => {
                 Experience & Education
               </h1>
             </div>
-            <p className="text-lg md:text-xl">
+            <p className="text-lg md:text-2xl">
               Hello,{" "}
               <span className="text-green-600 font-semibold">
-                I am Shakil Alam
+                I am Al-Zinan
               </span>
-              , 3+ years of hands-on experience in Manual and Automation
-              testing. Strong understanding of Software Development Life Cycle
-              (SDLC), ISO standards, and Agile methodology. Proficient in
-              developing test plans, test cases, and other test activities for
-              both manual and automated testing.
+              , With 1.5 years of hands-on experience as a React.js developer, I
+              specialize in building dynamic and responsive web applications. I
+              have been dedicated to learning various programming languages and
+              modern technologies. complemented by a 3-month internship at
+              Creative IT Institute, where I honed my skills in front-end
+              development and modern technologies.
             </p>
-            <p className="mt-4">
-              I graduated from{" "}
-              <span className="text-green-600 font-semibold">
-                Southeast University
-              </span>
-              with a Bachelor’s degree in Computer Science & Engineering. I am
-              currently working as a{" "}
-              <span className="text-green-600 font-semibold">SQA Engineer</span>{" "}
-              in a software development company specializing in mobile
-              applications. We have more than 10+ subscription-based mobile
-              applications in the iOS App Store.
+            <p className="mt-4 text-lg">
+              Im a CSE student with a 4-year Diploma in Computer Science and
+              Technology. As class CR, I lead with creativity and innovation,
+              focusing on pursuing a BSC in Software Engineering and modern
+              technologies.
             </p>
           </div>
 
           {/* Image & Social Section */}
           <div className="flex flex-col items-center">
             <div className="relative w-60 h-60 sm:w-80 sm:h-80 md:w-[500px] md:h-[500px] mb-7 mt-10 rounded-full overflow-hidden">
-              <div className="absolute inset-0 bg-cover bg-center bg-image"></div>
+              <div className="absolute inset-0 bg-cover bg-center "></div>
               <Image
                 className="rounded-full border-radius"
                 src={image}
