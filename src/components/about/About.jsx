@@ -38,7 +38,7 @@ const About = () => {
               <span className="text-green-600 font-semibold">
                 I am Al-Zinan
               </span>
-              , With 1.5 years of hands-on experience as a React.js developer, I
+              , With 2 years of hands-on experience as a React.js developer, I
               specialize in building dynamic and responsive web applications. I
               have been dedicated to learning various programming languages and
               modern technologies. complemented by a 3-month internship at
