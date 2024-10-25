@@ -2,52 +2,92 @@
 
 import React from "react";
 import {
-  FaJava,
   FaJsSquare,
-  FaGitAlt,
-  FaJenkins,
-  FaDatabase,
-  FaBug,
+  FaHtml5,
+  FaCss3Alt,
+  FaBootstrap,
+  FaNodeJs,
 } from "react-icons/fa";
 import {
-  SiSelenium,
-  SiPlaywright,
   SiPostman,
-  SiJunit,
-  SiTestng,
-  SiJira,
-  SiBugzilla,
-  SiTestrail,
   SiAdobe,
   SiFigma,
   SiFirebase,
-  SiJunit5,
-  SiTestin,
-  SiTestinglibrary,
-  SiApachejmeter,
+  SiExpress,
+  SiMongodb,
+  SiMongoose,
+  SiTypescript,
+  SiCanva,
 } from "react-icons/si";
-import "./Expertise.css"; // Use CSS module for scoped styles
+import "./Expertise.css";
+import { RiNextjsFill, RiTailwindCssFill } from "react-icons/ri"; // Use CSS module for scoped styles
+import { FaReact } from "react-icons/fa6";
 
 const Expertise = () => {
   const skills = [
-    { name: "Java", icon: <FaJava /> },
-    { name: "JavaScript", icon: <FaJsSquare /> },
-    { name: "Playwright", icon: <SiPlaywright /> },
-    { name: "Selenium Webdriver", icon: <SiSelenium /> },
-    { name: "JUnit", icon: <SiJunit5 /> },
+    { name: "HTML", icon: <FaHtml5 />, color: "#ff5733" },
+    {
+      name: "CSS",
+      icon: <FaCss3Alt />,
+      color: "#2563ED",
+    },
+    {
+      name: "Bootstrap",
+      icon: <FaBootstrap />,
+      color: "#7A10F1",
+    },
+    {
+      name: "Tailwind CSS",
+      icon: <RiTailwindCssFill />,
+      color: "#36B7F2",
+    },
+    { name: "JavaScript", icon: <FaJsSquare />, color: "#2563ED" },
+    {
+      name: "React.Js",
+      icon: <FaReact />,
+      color: "#05D3F6",
+    },
+    {
+      name: "Next JS",
+      icon: <RiNextjsFill />,
+      color: "#000000",
+    },
+    {
+      name: "Node JS",
+      icon: <FaNodeJs />,
+      color: "#509942", // Double-check if you need a custom icon for Angular
+    },
+    {
+      name: "Express Js",
+      icon: <SiExpress />,
+      color: "#000000", // Double-check if you need a custom icon for Angular
+    },
+    {
+      name: "MongoDb",
+      icon: <SiMongodb />,
+      color: "#51A543", // Double-check if you need a custom icon for Angular
+    },
+    {
+      name: "Mongoose",
+      icon: <SiMongoose />,
+      color: "#A03538",
+    },
+    {
+      name: "TypeScript",
+      icon: <SiTypescript />,
+      color: "#2563ED",
+    },
 
-    { name: "TestNG", icon: <SiTestinglibrary /> },
-    { name: "Jenkins", icon: <FaJenkins /> },
-    { name: "MySQL", icon: <FaDatabase /> },
-    { name: "Git", icon: <FaGitAlt /> },
-    { name: "JMeter", icon: <SiApachejmeter /> }, // Double-check if you need a custom icon for JMeter
-    { name: "Postman", icon: <SiPostman /> },
-    { name: "JIRA", icon: <SiJira /> },
-    { name: "Bugzilla", icon: <FaBug /> },
-    { name: "TestRail", icon: <SiTestrail /> },
-    { name: "Adobe XD", icon: <SiAdobe /> },
-    { name: "Figma", icon: <SiFigma /> },
-    { name: "Firebase Analytics", icon: <SiFirebase /> },
+    { name: "Postman", icon: <SiPostman />, color: "#F66836" },
+
+    { name: "Adobe XD", icon: <SiAdobe />, color: "#F30F01" },
+    {
+      name: "Canva",
+      icon: <SiCanva />,
+      color: "#6E33EB",
+    },
+    { name: "Figma", icon: <SiFigma />, color: "#D0527E" },
+    { name: "Firebase Analytics", icon: <SiFirebase />, color: "#F6C62F" },
   ];
 
   return (
@@ -70,9 +110,12 @@ const Expertise = () => {
             {skills.map((skill, index) => (
               <div
                 key={index}
-                className="flex flex-col items-center p-4 bg-white shadow-2xl rounded-lg hover:bg-indigo-100 transition-all shadow-red-600"
+                className="flex flex-col items-center p-4 bg-white shadow-2xl rounded-lg hover:bg-indigo-100 transition-all shadow-[#3fff5c]"
               >
-                <div className="text-5xl text-indigo-600 mb-4 transition-transform transform hover:-scale-y-100 duration-500">
+                <div
+                  style={{ color: skill.color }}
+                  className={`text-5xl  mb-4 transition-transform transform hover:-scale-y-100 duration-500`}
+                >
                   {skill.icon}
                 </div>
                 <p className="text-lg font-semibold">{skill.name}</p>

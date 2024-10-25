@@ -1,5 +1,5 @@
 import React from "react";
-import logoMaker from "../../app/assets/reviews/logo.png";
+import logoMaker from "../../app/assets/projects/Screenshot_9.png";
 import remote from "../../app/assets/reviews/remote.png";
 import vpn from "../../app/assets/reviews/Screenshot_5.png";
 import photoGenerate from "../../app/assets/reviews/image.png";
@@ -9,11 +9,11 @@ const Projects = () => {
   const projects = [
     {
       id: 1,
-      name: "Logo Maker",
+      name: "Education Website",
       description:
-        "Create stunning logos with ease using our powerful design tools.",
+        "An interactive education website designed to provide engaging learning resources, courses, and tools for students of all ages and subjects.",
       image: logoMaker,
-      link: "https://apps.apple.com/us/app/logo-maker-design-creator/id1463935485",
+      link: "https://education-02.vercel.app/",
     },
     {
       id: 2,
@@ -71,14 +71,22 @@ const Projects = () => {
               <p className="text-gray-600 font-semibold mb-4">
                 {project.description}
               </p>
-              <p className="">
+              <p className="flex justify-between">
                 <a
                   href={project.link}
                   target="_blank"
                   rel="noopener noreferrer"
                   className="text-white hover:text-indigo-800 font-medium bg-orange-600 p-2 px-5 rounded"
                 >
-                  Learn More
+                  Live Link
+                </a>
+                <a
+                  href={project.link}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="text-white hover:text-indigo-800 font-medium bg-orange-600 p-2 px-5 rounded"
+                >
+                  Github Link
                 </a>
               </p>
             </div>
