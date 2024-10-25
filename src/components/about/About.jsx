@@ -10,7 +10,7 @@ import {
   FaTwitter,
 } from "react-icons/fa";
 import { FaXTwitter } from "react-icons/fa6";
-import { SiLeetcode } from "react-icons/si";
+import { SiGmail, SiLeetcode } from "react-icons/si";
 
 const About = () => {
   return (
@@ -67,34 +67,34 @@ const About = () => {
             </div>
             <div className="flex gap-4">
               <a
-                href="https://www.facebook.com/"
+                href="https://www.facebook.com/alzinan.73"
                 className="text-[40px] text-[#fff] bg-[#0867FF] p-1 rounded hover:text-green-500 transition-all duration-500"
               >
                 <FaFacebook />
               </a>
               <a
-                href="https://www.linkedin.com/in/md-shakil-alam-seu?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
+                href="https://www.linkedin.com/in/al-zinan-bb7464248/"
                 className="text-[40px] text-[#fff] bg-[#0B66C2] p-1 rounded hover:text-green-500 transition-all duration-500"
               >
                 <FaLinkedin />
               </a>
               <a
-                href="https://x.com/home"
+                href="https://x.com/Alzinan02"
                 className="text-[40px] text-[#fff] bg-[#000]  p-1 rounded hover:text-green-500 transition-all duration-500"
               >
                 <FaXTwitter />
               </a>
               <a
-                href="https://github.com/Shakil-Alam76"
+                href="https://github.com/alzinan1234"
                 className="text-[40px] text-[#fff] bg-[#000]  p-1 rounded hover:text-green-500 transition-all duration-500"
               >
                 <FaGithub />
               </a>
               <a
-                href="https://leetcode.com/u/shantoseu/"
-                className="text-[40px] text-[#fff] bg-[#FFA117] p-1 rounded hover:text-green-500 transition-all duration-500"
+                href="https://mail.google.com/mail/u/0/?tab=rm&ogbl#inbox"
+                className="text-[40px] text-[#ff1717] bg-blue-500 p-1 rounded hover:text-green-500 transition-all duration-500"
               >
-                <SiLeetcode />
+                <SiGmail />
               </a>
             </div>
           </div>

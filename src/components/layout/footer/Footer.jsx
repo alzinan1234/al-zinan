@@ -3,14 +3,13 @@ import {
   FaInstagram,
   FaLinkedinIn,
   FaGithub,
-  FaLocationDot,
 } from "react-icons/fa";
 import { MdPhone, MdEmail } from "react-icons/md";
 import { IoLocationSharp } from "react-icons/io5";
 
 const Footer = () => {
   return (
-    <footer className="bg-green-600 text-white  px-5  ">
+    <footer className="bg-green-700 text-white  px-5  ">
       <div className="max-w-7xl py-24 mx-auto flex flex-col lg:flex-row justify-between items-center space-y-5 lg:space-y-0">
         {/* Left Section: Get in Touch */}
         <div className="text-center lg:text-left">
@@ -64,7 +63,7 @@ const Footer = () => {
             <FaLinkedinIn />
           </a>
           <a
-            href="https://github.com/Shakil-Alam76"
+            href="https://github.com/alzinan1234"
             className="text-white bg-[black] p-2 rounded text-2xl hover:text-gray-300"
           >
             <FaGithub />
@@ -74,7 +73,7 @@ const Footer = () => {
 
       {/* Copyright Section */}
       <div className="mt-10 text-center text-sm text-white p-2">
-        © Copyright 2024 | Shakil_Alam | All Rights Reserved.
+        © Copyright 2024 | Al-Zinan | All Rights Reserved.
       </div>
     </footer>
   );

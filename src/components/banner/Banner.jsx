@@ -14,7 +14,7 @@ import {
   FaLinkedin,
   FaTwitter,
 } from "react-icons/fa";
-import { SiLeetcode } from "react-icons/si";
+import { SiInstagram, SiLeetcode } from "react-icons/si";
 import { FaXTwitter } from "react-icons/fa6";
 export const Banner = () => {
   return (
@@ -28,32 +28,32 @@ export const Banner = () => {
           <div className=" maxWidth mx-auto block px-3 ">
             {/* ---------socail-icon ---------- */}
             <div className="social-icon flex flex-wrap gap-3">
-              <a href="https://www.facebook.com/" className="mr-3">
+              <a href="https://www.facebook.com/alzinan.73" className="mr-3">
                 <i className="text-[25px] text-[#fff]  hover:text-green-500 transition-all duration-500 ">
                   <FaFacebook />
                 </i>
               </a>
               <a
-                href="https://www.linkedin.com/in/md-shakil-alam-seu?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
+                href="https://www.linkedin.com/in/al-zinan-bb7464248/"
                 className="mr-3"
               >
                 <i className="text-[25px] text-[#fff]  hover:text-green-500 transition-all duration-500">
                   <FaLinkedin />
                 </i>
               </a>
-              <a href="https://x.com/home" className="mr-3">
+              <a href="https://x.com/Alzinan02" className="mr-3">
                 <i className="text-[25px] text-[#fff] hover:text-green-500 transition-all duration-500">
                   <FaXTwitter />
                 </i>
               </a>
-              <a href="https://github.com/Shakil-Alam76" className="mr-3">
+              <a href="https://github.com/alzinan1234" className="mr-3">
                 <i className="text-[25px] text-[#fff] hover:text-green-500 transition-all duration-500">
                   <FaGithub />
                 </i>
               </a>
               <a href="https://leetcode.com/u/shantoseu/" className="mr-3">
                 <i className="text-[25px] text-[#fff]  hover:text-green-500 transition-all duration-500">
-                  <SiLeetcode />
+                  <SiInstagram />
                 </i>
               </a>
             </div>
