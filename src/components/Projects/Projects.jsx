@@ -1,7 +1,7 @@
 import React from "react";
 import logoMaker from "../../app/assets/projects/Screenshot_9.png";
 import remote from "../../app/assets/projects/resturent.png";
-import vpn from "../../app/assets/reviews/Screenshot_5.png";
+import vpn from "../../app/assets/projects/nike2.png";
 import photoGenerate from "../../app/assets/reviews/image.png";
 import Image from "next/image";
 
