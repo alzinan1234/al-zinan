@@ -41,7 +41,7 @@ const Expertise = () => {
       icon: <RiTailwindCssFill />,
       color: "#36B7F2",
     },
-    { name: "JavaScript", icon: <FaJsSquare />, color: "#2563ED" },
+    { name: "JavaScript", icon: <FaJsSquare />, color: "#E9D44D" },
     {
       name: "React.Js",
       icon: <FaReact />,

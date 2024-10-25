@@ -2,7 +2,7 @@ import React from "react";
 import logoMaker from "../../app/assets/projects/Screenshot_9.png";
 import remote from "../../app/assets/projects/resturent.png";
 import vpn from "../../app/assets/projects/nike2.png";
-import photoGenerate from "../../app/assets/reviews/image.png";
+import photoGenerate from "../../app/assets/projects/movie.png";
 import Image from "next/image";
 
 const Projects = () => {
@@ -37,7 +37,8 @@ const Projects = () => {
     {
       id: 4,
       name: "Movie Master",
-      description: "Generate creative and artistic GIFs using AI technology.",
+      description:
+        "A dynamic Movie Master website offering comprehensive movie information, trailers, reviews, and personalized recommendations for film lovers.",
       image: photoGenerate,
       link: "https://movie-master-02.netlify.app/",
       GithubLink: "https://github.com/alzinan1234/Imdb-Movie-Master",
