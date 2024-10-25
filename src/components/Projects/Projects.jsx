@@ -27,20 +27,20 @@ const Projects = () => {
     },
     {
       id: 3,
-      name: "Nolog VPN",
+      name: "Nike World",
       description:
-        "Secure your online privacy with fast, stable, and reliable VPN service.",
+        "An immersive Nike shoe website highlighting the latest collections, detailed product features, and a smooth shopping experience for sneaker enthusiasts.",
       image: vpn,
       link: "https://your-nike-world.netlify.app/",
       GithubLink: "https://github.com/alzinan1234/nike-world",
     },
     {
       id: 4,
-      name: "AI GIF Art",
+      name: "Movie Master",
       description: "Generate creative and artistic GIFs using AI technology.",
       image: photoGenerate,
-      link: "https://apps.apple.com/us/app/ai-gif-maker-photo-generator/id6502057569",
-      GithubLink: "https://education-02.vercel.app/",
+      link: "https://movie-master-02.netlify.app/",
+      GithubLink: "https://github.com/alzinan1234/Imdb-Movie-Master",
     },
   ];
 
@@ -62,7 +62,7 @@ const Projects = () => {
         {projects.map((project) => (
           <div
             key={project.id}
-            className="bg-white  rounded-lg overflow-hidden hover:shadow-xl transition-shadow duration-300  shadow-lg md:w-[500px]"
+            className="bg-white  rounded-lg overflow-hidden hover:shadow-xl transition-shadow duration-300  shadow-2xl md:w-[500px] shadow-[#3fff5c]"
           >
             <Image
               src={project.image}
@@ -70,10 +70,10 @@ const Projects = () => {
               className="w-full md:h-56 object-cover transition-transform transform hover:-scale-y-100 duration-500"
             />
             <div className="p-6">
-              <h2 className="text-3xl text-black font-semibold mb-4 hover:text-green-600 transition-all duration-500">
+              <h2 className="text-3xl text-red-600 font-semibold mb-4 hover:text-green-600 transition-all duration-500">
                 {project.name}
               </h2>
-              <p className="text-gray-600 font-semibold mb-4">
+              <p className="text-black text-lg font-semibold mb-4">
                 {project.description}
               </p>
               <p className="flex justify-between">
