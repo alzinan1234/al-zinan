@@ -1,7 +1,7 @@
 // import About from "../components/About/About.jsx";
 
 import { Banner } from "@/components/banner/Banner";
-import About from "@/components/About/About";
+// import About from "@/components/About/About";
 import Blog from "@/components/Blog/Blog";
 import Education from "@/components/Education/Education";
 import Experience from "@/components/Experiences/Experience";
@@ -14,7 +14,7 @@ const Home = () => {
   return (
     <div>
       <Banner />
-      <About />
+      {/* <About /> */}
       <Experience />
       <Education />
       <Expertise />
