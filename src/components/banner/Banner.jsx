@@ -51,7 +51,7 @@ export const Banner = () => {
                   <FaGithub />
                 </i>
               </a>
-              <a href="https://leetcode.com/u/shantoseu/" className="mr-3">
+              <a href="https://www.instagram.com/alzinan4/" className="mr-3">
                 <i className="text-[25px] text-[#fff]  hover:text-green-500 transition-all duration-500">
                   <SiInstagram />
                 </i>
