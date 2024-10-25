@@ -1,21 +1,12 @@
 import React from "react";
 import "./Education.css";
-import logo1 from "../../app/assets/home/shoutheast.png";
+
 import logo2 from "../../app/assets/home/politecnic.png";
-import logo3 from "../../app/assets/home/Morichar char high school.png";
+import logo3 from "../../app/assets/home/cantonment.jpeg";
 import Image from "next/image";
 
 const Education = () => {
   const educationData = [
-    {
-      institution: "Southeast University Bangladesh",
-      degree: "Bachelor of Science (B.Sc.)",
-      major: "Computer Science and Engineering",
-      duration: "January 2019 - June 2023",
-
-      certificate: "[Certificate]", // Add the actual link if available
-      logo: logo1, // Replace with the actual path to the logo
-    },
     {
       institution: "Mymensingh Polytechnic Institute",
       degree: "Diploma in Engineering",
@@ -26,10 +17,10 @@ const Education = () => {
       logo: logo2, // Replace with the actual path to the logo
     },
     {
-      institution: "Morichar char high school",
+      institution: "Cantonment Board High School",
       degree: "Secondary School Certificate (SSC)",
       major: "Science",
-      duration: "January 2014 - March 2016",
+      duration: "January 2018 - March 2020",
 
       certificate: "[Certificate]", // Add the actual link if available
       logo: logo3, // Replace with the actual path to the logo
