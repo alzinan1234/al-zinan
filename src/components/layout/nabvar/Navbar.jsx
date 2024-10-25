@@ -118,7 +118,7 @@ export const Navbar = () => {
             } lg:hidden`}
           >
             <div className="flex justify-between items-center mb-8">
-              <h1 className="text-white text-[18px] font-[600]">Shakil_Alam</h1>
+              <h1 className="text-white text-[18px] font-[600]">Al-Zinan</h1>
               <button onClick={() => setIsOpen(false)}>
                 <FaWindowClose className="text-white text-2xl" />
               </button>
