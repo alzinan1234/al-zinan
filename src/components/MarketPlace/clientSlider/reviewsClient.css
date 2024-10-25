@@ -1,0 +1,108 @@
+.story-slider-border {
+  position: relative;
+  width: 70% !important;
+  min-height: 500px;
+  flex-shrink: 0;
+  border-radius: 10px;
+  color: #000;
+  text-align: center;
+  font-size: 16.93px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  letter-spacing: 0.169px;
+  /* ---- important--- */
+  z-index: 10;
+  background-blend-mode: overlay, normal;
+  backdrop-filter: blur(0px);
+}
+
+.story-slider-border::after {
+  content: "";
+  position: absolute;
+  z-index: -1;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  /* background-image: inherit; */
+  inset: 0;
+  /* border-radius: 10px;
+  padding: 1.5px;
+  background: linear-gradient(
+    91deg,
+    #ffd6708e 8.81%,
+    #ff70ac8f 29.16%,
+    #ec70ffab 49.51%,
+    #9d70ffb6 69.86%,
+    #70b7ffb3 90.2%
+  );
+  -webkit-mask: linear-gradient(black 0 0) content-box,
+    linear-gradient(black 0 0);
+  -webkit-mask-composite: xor;
+  mask-composite: exclude;
+  transition: 2s ease-in-out; */
+}
+
+.image-div-border {
+  border-radius: 10px;
+  /* ---- important--- */
+  z-index: 10;
+  background-blend-mode: overlay, normal;
+  backdrop-filter: blur(0px);
+}
+
+.image-div-border::after {
+  content: "";
+  position: absolute;
+  z-index: -1;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  /* background-image: inherit; */
+  inset: 0;
+  border-radius: 10px;
+  padding: 1.5px;
+  background: linear-gradient(
+    91deg,
+    #ffd6708e 8.81%,
+    #ff70ac8f 29.16%,
+    #ec70ffab 49.51%,
+    #9d70ffb6 69.86%,
+    #70b7ffb3 90.2%
+  );
+}
+
+/* ------------ insite slider design ------------ */
+
+.story-title-32 {
+  color: #000;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 35px;
+}
+
+@media (max-width: 600px) {
+  .btn-prev {
+    top: 103% !important;
+  }
+  .btn-next {
+    top: 103% !important;
+  }
+  .story-img {
+    height: auto !important;
+    padding-bottom: 20px !important;
+  }
+  .image-div-border {
+    height: auto !important;
+  }
+  .story-contain {
+    margin-top: 0px !important;
+    padding-bottom: 20px !important;
+  }
+  .story-slider-border {
+    width: 95% !important;
+  }
+}

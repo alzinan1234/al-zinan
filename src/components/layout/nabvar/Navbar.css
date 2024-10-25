@@ -1,0 +1,38 @@
+@import url("https://fonts.googleapis.com/css2?family=Cairo+Play:wght@600;900&family=Fira+Code:wght@500&family=Fira+Sans:ital,wght@1,300&family=Hind+Madurai:wght@300;400&family=Playfair+Display&family=REM:wght@100;600&family=Raleway:wght@700&family=Roboto:ital,wght@0,400;1,500&family=Work+Sans:ital,wght@0,200;0,300;0,400;0,500;1,400&display=swap");
+/* -------------- navbar --------------- */
+.logo-font {
+  font-family: "Roboto", sans-serif;
+}
+
+.hover-menu {
+  --b: 0.2em;
+  /* the thickness of the line */
+  --c: #f26c4f;
+  /* the color */
+
+  color: #0000;
+  padding-block: var(--b);
+  background: linear-gradient(var(--c) 50%, #ffffff 0) 0%
+      calc(100% - var(--_p, 0%)) / 100% 200%,
+    linear-gradient(var(--c) 0 0) 0% var(--_p, 0%) / var(--_p, 0%) var(--b)
+      no-repeat;
+  -webkit-background-clip: text, padding-box;
+  background-clip: text, padding-box;
+  transition: 0.3s var(--_s, 0s) linear,
+    background-size 0.3s calc(0.3s - var(--_s, 0s));
+}
+
+.hover-menu:hover {
+  --_p: 100%;
+  --_s: 0.3s;
+}
+
+/* .fixed {
+  position: fixed !important;
+  top: -10px;
+  z-index: 1000;
+  background: linear-gradient(90deg, #07091a, #010101) !important;
+} */
+.scrolled {
+  background: linear-gradient(90deg, #020215, #07091a) !important;
+}

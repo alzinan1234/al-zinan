@@ -1,0 +1,31 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.text-color {
+  color: #ffffff;
+}
+
+.button-bg {
+  background-color: #f26c4f;
+}
+
+.maxWidth {
+  max-width: 1450px;
+  padding: 0 25px !important;
+}
+
+@media (min-width: 100px) and (max-width: 700px) {
+  .upwork {
+    margin-right: 65px !important;
+  }
+}
+
+@media (min-width: 700px) and (max-width: 1500px) {
+}
+
+.borders {
+  border: 2px solid red;
+  padding: 10px;
+  border-radius: 5px;
+}

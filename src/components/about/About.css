@@ -1,0 +1,56 @@
+.title-line {
+  height: 4px;
+  margin: 8px 0px;
+  display: block;
+  background: rgb(0, 141, 71);
+  font-size: 16px;
+  font-family: Poppins;
+  font-weight: 400;
+  text-align: center;
+  color: rgb(0, 0, 0);
+}
+
+.title {
+  width: 980.8px;
+  height: 156.8px;
+  margin: 24px 0px;
+  display: block;
+  font-size: 104px;
+  font-family: Poppins;
+  font-weight: 700;
+  text-align: center;
+  color: rgb(0, 0, 0);
+  letter-spacing: 32px;
+}
+
+.p-title {
+  width: 531px;
+  height: 48px;
+  margin: 24px 0px;
+  display: block;
+  font-size: 24px;
+  font-family: Poppins;
+  font-weight: 700;
+  text-align: justify;
+  color: rgb(0, 0, 0);
+}
+
+.border-radius {
+  border: 12px solid rgb(0, 141, 71);
+  display: block;
+  border-radius: 50%;
+  font-size: 16px;
+  font-family: Poppins;
+  font-weight: 400;
+  text-align: center;
+  color: rgb(0, 0, 0);
+}
+
+.bg-image {
+  background-image: url("../../app/assets/home//bgimage.jpg");
+  width: 500px;
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  border-radius: 50%;
+}

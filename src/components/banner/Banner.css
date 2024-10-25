@@ -1,0 +1,191 @@
+.banner {
+  background-image: url("../../app/assets/home/bannerImage.png");
+  width: 100%;
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+}
+
+/* TextChangeAnimation.css */
+
+.text-box {
+  position: relative;
+  color: #ffffff;
+  font-weight: bold;
+  text-align: center;
+  line-height: 100px;
+  overflow: hidden;
+}
+
+.changing-text {
+  position: relative !important;
+  border: 3px solid #fff;
+  animation: all 12s infinite;
+}
+
+@keyframes changing-text {
+  0%,
+  100% {
+    content: "";
+  }
+
+  25% {
+    content: "";
+  }
+
+  50% {
+    content: "";
+  }
+
+  75% {
+    content: "";
+  }
+
+  100% {
+    content: "";
+  }
+}
+
+.btn {
+  background-color: #4b0d0d;
+  color: #fff;
+
+  border: 2px solid #fff;
+  width: 173px;
+  height: 55px;
+  flex-shrink: 0;
+  color: #fff;
+
+  font-family: Jost;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 12px;
+  outline: #fff;
+}
+
+/* --------------- responsive banner -------------- */
+@media (min-width: 200px) and (max-width: 1100px) {
+  .banner-Button {
+    margin-top: 100px !important;
+  }
+}
+
+@media (min-width: 200px) and (max-width: 650px) {
+  .banner-heading {
+    font-size: 35px !important;
+  }
+  .text-box {
+    line-height: 80px;
+  }
+  .down-content-out-box {
+    top: 106px !important;
+  }
+  .changing-text {
+    font-size: 25px !important;
+    padding: 0 20px !important;
+  }
+}
+@media (min-width: 100px) and (max-width: 450px) {
+  .changing-text {
+    font-size: 18px !important;
+    padding: 0 15px !important;
+  }
+}
+
+/* -------------------------- button Slide animation--------------- */
+
+.btn-epic {
+  position: relative;
+  width: 75px;
+  height: 75px;
+  left: 0;
+  background: #0000000a;
+  transform: translate3d(0px, 0%, 0px);
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 18px;
+  letter-spacing: 0.05em;
+  transition-delay: 0.5s;
+  overflow: hidden;
+}
+
+.btn-epic:before {
+  content: "";
+  position: absolute;
+  top: 30px;
+  left: 0;
+  width: 75px;
+  height: 72px;
+  background: #0000;
+  transform: translateY(100%) scaleY(0.5);
+  transition: all 0.6s ease;
+}
+
+.btn-epic:after {
+  content: "";
+  position: absolute;
+  top: 0px;
+  left: 0;
+  width: 75px;
+  height: 72px;
+
+  background: #550864;
+  border-radius: 0;
+  transform: translateY(0) scaleY(1);
+  transition: all 0.6s ease;
+}
+
+.btn-epic div {
+  position: relative;
+  top: 0px;
+  width: 75px;
+  height: 72px;
+  text-transform: uppercase;
+  overflow: hidden;
+}
+
+.btn-epic span {
+  position: absolute;
+  z-index: 1;
+  top: 30px;
+  width: 75px;
+  text-align: center;
+  transition: transform 0.5s ease;
+}
+
+.btn-epic span:first-child {
+  color: #fff;
+  transform: translateY(50px);
+}
+
+.btn-epic span:last-child {
+  color: #1e0f21;
+  transform: translateY(0);
+}
+
+.btn-epic:hover {
+  background: #0000;
+  transition: all 0.2s linear;
+  transition-delay: 0.6s;
+}
+
+.btn-epic:hover:after {
+  border-radius: 0 0 50% 50%;
+  transform: translateY(-100%) scaleY(0.5);
+  transition-delay: 0;
+}
+
+.btn-epic:hover:before {
+  border-radius: 0;
+  transform: translateY(0) scaleY(1);
+  transition-delay: 0;
+}
+
+.btn-epic:hover span:first-child {
+  transform: translateY(-7px) !important;
+}
+
+.btn-epic:hover span:last-child {
+  transform: translateY(-50px);
+}
