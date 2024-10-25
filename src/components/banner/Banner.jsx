@@ -1,20 +1,14 @@
 import zinanImage from "../../app/assets/home/1.png";
 // import Link from "next/link";
 import "./Banner.css";
-import pdf from "../../pdf/Shakil_Alam_SQA_3_Years.pdf (4).pdf";
+import pdf from "../../app/public/pdf/al zinan(Front end developer).pdf.pdf";
 import TextChangeAnimation from "./TextChangeAnimation";
 import { FaArrowDown, FaCaretDown } from "react-icons/fa";
 import Image from "next/image";
 import Link from "next/link";
 import Head from "next/head";
-import {
-  FaEnvelope,
-  FaFacebook,
-  FaGithub,
-  FaLinkedin,
-  FaTwitter,
-} from "react-icons/fa";
-import { SiInstagram, SiLeetcode } from "react-icons/si";
+import { FaFacebook, FaGithub, FaLinkedin } from "react-icons/fa";
+import { SiInstagram } from "react-icons/si";
 import { FaXTwitter } from "react-icons/fa6";
 export const Banner = () => {
   return (
@@ -74,10 +68,10 @@ export const Banner = () => {
             </div>
             <div className=" mt-10">
               <a
-                href={pdf}
+                href={pdf} // No need for `pdf` variable if it's in /public
                 download="Resume.pdf"
+                rel="noopener noreferrer" // Recommended with target="_blank"
                 target="_blank"
-                rel="noopener noreferrer"
                 className="btn btn-outline-warning my-3 p-4 border border-x-slate-400"
               >
                 Download Resume
