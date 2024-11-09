@@ -11,7 +11,7 @@ const Education = () => {
       institution: "Mymensingh Polytechnic Institute",
       degree: "Diploma in Engineering",
       major: "Computer Science & Technology (CST)",
-      duration: "July 2016 - July 2018",
+      duration: "July 2020 - July 2025",
 
       certificate: "[Certificate]", // Add the actual link if available
       logo: logo2, // Replace with the actual path to the logo
