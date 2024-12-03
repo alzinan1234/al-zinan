@@ -18,7 +18,7 @@ const MarketPlace = () => {
             <div className="title-line mt-4"></div>
           </div>
         </div>
-        <div className="pt-20 maxWidth my-12">
+        <div className="pt-20 maxWidth mx-auto my-12">
           <ProductSlider />
         </div>
       </div>
@@ -36,7 +36,7 @@ const MarketPlace = () => {
           </div>
         </div>
 
-        <div className="">
+        <div className="maxWidth mx-auto">
           <ReviewsClient />
         </div>
       </div>
